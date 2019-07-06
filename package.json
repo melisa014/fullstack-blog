@@ -1,0 +1,30 @@
+{
+  "name": "fullstack-blog",
+  "version": "1.0.0",
+  "description": "simple blog using node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melisa014/fullstack-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "Yulia Mikhailova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melisa014/fullstack-blog/issues"
+  },
+  "homepage": "https://github.com/melisa014/fullstack-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
