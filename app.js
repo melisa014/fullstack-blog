@@ -1,6 +1,12 @@
 // подключаем необходимые модули (пакеты)
 const express = require('express')
+const mongoose = require('mongoose')
 const path = require('path')
+const keys = require('./keys')
+
+mongoose.connect(keys.mongoURI)
+    .then(() => console.log('MongoDB connected.'))
+    .catch(err => console.error(err))
 
 // достаём переменную из глобального массива env, если такая там существует или 5000
 const port = process.env.PORT || 5000
